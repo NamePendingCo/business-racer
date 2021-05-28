@@ -1,0 +1,242 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/noah/Unity Games/business-racer/Business Racer
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54913
+Successfully changed project path to: /Users/noah/Unity Games/business-racer/Business Racer
+/Users/noah/Unity Games/business-racer/Business Racer
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 28.23 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.5f1 (8095aa901b9b)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/noah/Unity Games/business-racer/Business Racer/Assets
+GfxDevice: creating device client; threaded=0
+2021-05-27 17:38:00.100 Unity[33129:7804960] Color LCD preferred device: AMD Radeon R9 M370X (high power)
+2021-05-27 17:38:00.100 Unity[33129:7804960] Metal devices available: 2
+2021-05-27 17:38:00.100 Unity[33129:7804960] 0: AMD Radeon R9 M370X (high power)
+2021-05-27 17:38:00.100 Unity[33129:7804960] 1: Intel Iris Pro Graphics (low power)
+2021-05-27 17:38:00.101 Unity[33129:7804960] Using device AMD Radeon R9 M370X (high power)
+Initializing Metal device caps: AMD Radeon R9 M370X
+Initialize mono
+Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56129
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001070 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 29.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.732 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000691 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.129 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.24 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1119 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 107.1 MB.
+System memory in use after: 107.1 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1561.
+Total: 2.578049 ms (FindLiveObjects: 0.187291 ms CreateObjectMapping: 0.050572 ms MarkObjects: 2.214310 ms  DeleteObjects: 0.124720 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Simple Vehicle Pack/Models/road_4.FBX
+  artifactKey: Guid(faa37065c55ee5e46ab6e63ac549f8a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Vehicle Pack/Models/road_4.FBX using Guid(faa37065c55ee5e46ab6e63ac549f8a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03dd9a9cf8de3959858af96545d53701') in 0.386746 seconds
+  Import took 0.389490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Simple Vehicle Pack/Models/police_car.FBX
+  artifactKey: Guid(442255f864e16934790fbb3b49639885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Vehicle Pack/Models/police_car.FBX using Guid(442255f864e16934790fbb3b49639885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69901a5acf6bb5f7be5dc7bd3a5c4310') in 0.074134 seconds
+  Import took 0.076458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Simple Vehicle Pack/Models/car_1.FBX
+  artifactKey: Guid(75fac0ffc516dac4fb20ed28a0b923fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Vehicle Pack/Models/car_1.FBX using Guid(75fac0ffc516dac4fb20ed28a0b923fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22981b56574e2ed2f3761363eb8d9aa8') in 0.063450 seconds
+  Import took 0.065605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Simple Vehicle Pack/Models
+  artifactKey: Guid(997e59417d7a8374583de63ee487f087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Vehicle Pack/Models using Guid(997e59417d7a8374583de63ee487f087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27a4e2f42023f43a0ba22b55016175b7') in 0.001197 seconds
+  Import took 0.002904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Simple Vehicle Pack/Models/car_2.FBX
+  artifactKey: Guid(209fadb19c7c1f149830b00ad9d0c764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Vehicle Pack/Models/car_2.FBX using Guid(209fadb19c7c1f149830b00ad9d0c764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20d9435d596337a3476e5f289d6f2f30') in 0.064418 seconds
+  Import took 0.066516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Simple Vehicle Pack/Models/bus.FBX
+  artifactKey: Guid(7f4f24cb528cb884a874e5266f87c831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Vehicle Pack/Models/bus.FBX using Guid(7f4f24cb528cb884a874e5266f87c831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4f0839786b1e8046410d7385397a8d5') in 0.059419 seconds
+  Import took 0.061522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001716 seconds.
+  path: Assets/Simple Vehicle Pack/Models/bus.FBX
+  artifactKey: Guid(7f4f24cb528cb884a874e5266f87c831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Vehicle Pack/Models/bus.FBX using Guid(7f4f24cb528cb884a874e5266f87c831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4f0839786b1e8046410d7385397a8d5') in 0.057940 seconds
+  Import took 0.059891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 108.448457 seconds.
+  path: Assets/Simple Vehicle Pack/Demo_scene.unity
+  artifactKey: Guid(506b4ac321e63974fafc66c23659ffe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Vehicle Pack/Demo_scene.unity using Guid(506b4ac321e63974fafc66c23659ffe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a955c10ec518a9e251d49a996ff04dfd') in 0.003619 seconds
+  Import took 0.006647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000949 seconds.
+  path: Assets/Simple Vehicle Pack/Demo_scene.unity
+  artifactKey: Guid(506b4ac321e63974fafc66c23659ffe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Vehicle Pack/Demo_scene.unity using Guid(506b4ac321e63974fafc66c23659ffe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a955c10ec518a9e251d49a996ff04dfd') in 0.001150 seconds
+  Import took 0.003023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.899524 seconds.
+  path: Assets/Simple Vehicle Pack/Materials
+  artifactKey: Guid(2c7d24a2da02f5548b332cafc37ada89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Vehicle Pack/Materials using Guid(2c7d24a2da02f5548b332cafc37ada89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a178800c7a77bf8e85f23a6d480ad3c3') in 0.002445 seconds
+  Import took 0.005310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.203238 seconds.
+  path: Assets/Simple Vehicle Pack/Prefabs
+  artifactKey: Guid(24f2c341cec0b5449866cc1e55270d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Vehicle Pack/Prefabs using Guid(24f2c341cec0b5449866cc1e55270d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85741df53c2113cc7d1d89bcf7c65739') in 0.000963 seconds
+  Import took 0.003544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.085719 seconds.
+  path: Assets/Simple Vehicle Pack/Prefabs/Bus_1.prefab
+  artifactKey: Guid(fc4245223e4122142bb14239d44230ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Vehicle Pack/Prefabs/Bus_1.prefab using Guid(fc4245223e4122142bb14239d44230ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83faff02e001319401d3e3e09a0c59f0') in 0.282276 seconds
+  Import took 0.285010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Simple Vehicle Pack/Prefabs/Taxi.prefab
+  artifactKey: Guid(50477af197889084e8a6d97f2b73b73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Vehicle Pack/Prefabs/Taxi.prefab using Guid(50477af197889084e8a6d97f2b73b73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '777472feac3b22231c0d569d759fe107') in 0.039931 seconds
+  Import took 0.042106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Simple Vehicle Pack/Prefabs/Car_3.prefab
+  artifactKey: Guid(512151c1530b99343a884b12ee9c5e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Vehicle Pack/Prefabs/Car_3.prefab using Guid(512151c1530b99343a884b12ee9c5e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '588c8a735646e73baca3daeec705281b') in 0.028136 seconds
+  Import took 0.030172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Simple Vehicle Pack/Prefabs/Police_car.prefab
+  artifactKey: Guid(f463242ba59e68243b7a693d4f0cfc18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Vehicle Pack/Prefabs/Police_car.prefab using Guid(f463242ba59e68243b7a693d4f0cfc18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a6c515a19dee4ec9060c9adc2bc817a') in 0.024113 seconds
+  Import took 0.026241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Simple Vehicle Pack/Prefabs/Bus_2.prefab
+  artifactKey: Guid(34941e62fdb557544ada8af1b5333ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Vehicle Pack/Prefabs/Bus_2.prefab using Guid(34941e62fdb557544ada8af1b5333ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1f84dc34f090bf49673c6ffc8a6a32b') in 0.014643 seconds
+  Import took 0.016613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Simple Vehicle Pack/Prefabs/Car_4.prefab
+  artifactKey: Guid(ab26596a331d7ee43a3e9d29e2be9f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Vehicle Pack/Prefabs/Car_4.prefab using Guid(ab26596a331d7ee43a3e9d29e2be9f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4328d22919dd142e1c82e01b868dc708') in 0.021449 seconds
+  Import took 0.023660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Simple Vehicle Pack/Prefabs/Car_2.prefab
+  artifactKey: Guid(2dc42346e5313b34c93d598a61994629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Vehicle Pack/Prefabs/Car_2.prefab using Guid(2dc42346e5313b34c93d598a61994629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0de00755b3e081097b3ffe6234f55eb') in 0.022030 seconds
+  Import took 0.024435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Simple Vehicle Pack/Prefabs/Car_1.prefab
+  artifactKey: Guid(0ae65270c30153049ab49eb3ebf070d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Vehicle Pack/Prefabs/Car_1.prefab using Guid(0ae65270c30153049ab49eb3ebf070d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81dbd51dcd34413923605f013edc1e36') in 0.026144 seconds
+  Import took 0.029057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 212.455647 seconds.
+  path: Assets/Prefabs/Car_3.prefab
+  artifactKey: Guid(76534138a52a044f58865569a65edd66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Car_3.prefab using Guid(76534138a52a044f58865569a65edd66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd43df5d7368fa91255cf0d4780515954') in 0.038020 seconds
+  Import took 0.041517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 307.227703 seconds.
+  path: Assets/Prefabs/Car_3.prefab
+  artifactKey: Guid(76534138a52a044f58865569a65edd66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Car_3.prefab using Guid(76534138a52a044f58865569a65edd66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '299113d2fc49c7b61e35a359d572149d') in 0.027318 seconds
+  Import took 0.030103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.770726 seconds.
+  path: Assets/Prefabs/Car_3.prefab
+  artifactKey: Guid(76534138a52a044f58865569a65edd66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Car_3.prefab using Guid(76534138a52a044f58865569a65edd66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14978ee6fd3d0da7949564ec9768d459') in 0.024340 seconds
+  Import took 0.026816 seconds .
+
